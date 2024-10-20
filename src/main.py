@@ -14,7 +14,6 @@ logger.setLevel(logging.INFO)
 
 file_path = str(Path(__file__).resolve().parent.parent) + "\\data\\operations.xlsx"
 data_frame = read_excel(file_path)
-# data_frame = read_excel("../data/operations.xlsx")
 
 
 def main(date: str, df_transactions, stocks: list, currency: list):
